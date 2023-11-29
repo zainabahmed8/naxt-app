@@ -1,0 +1,41 @@
+
+.card {
+    height: 320px;
+    animation: fadIn 1.5s;
+}
+
+.card .img {
+    height: 220px;
+    position: relative;
+}
+.card .img img{
+    object-fit: cover;
+}
+.card .title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card .subtitle{
+    font-size: 18px;
+    color:#666666;
+}
+
+.card .cardfoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.card .cardfoot a{
+    text-decoration: none;
+    font-size:18px;
+}
+@keyframes fadIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
